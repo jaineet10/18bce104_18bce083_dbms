@@ -1,0 +1,190 @@
+<html>
+    <head>
+        <title>
+            Nirma University
+        </title>
+        <style>
+
+            .navbar {
+              position: fixed;
+              width: 99.5%;
+              overflow: hidden;
+              background-color: rgb(0, 0, 0); 
+            }
+
+            .navbar a {
+              float: left;
+              color: #f2f2f2;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+              font-size: 17px;
+            }
+
+            .navbar a:hover {
+              background-color: #ddd;
+              color: black;
+            }
+
+            .navbar a.active {
+              background-color: rgb(76, 168, 175);
+            }
+
+            .box{
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                transition: 0.4s; 
+                height: 80%; 
+                width: 85%;
+                background-color: rgb(0, 0, 0);
+                border-radius: 100px 100px 100px 100px;
+                background-size: cover;    
+            }
+
+            input[type=text], select, textarea {
+                width: 40%;
+                padding: 12px;
+                border-radius: 10px;
+                box-sizing: border-box;
+                margin-top: 6px;
+                margin-bottom: 16px;
+                resize: vertical;
+            }
+            
+            .boxprop{
+                padding : 2px 16px;
+            }
+
+            img{
+                border-radius: 10px 10px 10px 10px;
+            }
+        </style>
+    </head>
+    <body style="background-size: cover; color: black;" >
+        <style>
+            body{
+                background-image : url("https://www.instructure.com/sites/default/files/migration/portfolium_landing_pages/background_home.jpg");
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+            }
+        </style>
+        
+        <div class="navbar">
+            
+            <a class="active" href="#Hostel">Hostel Registration</a>
+            <a href="#Contact">Contact Us</a>
+        
+          </div>
+        
+          <br>
+        <font style="color: aliceblue;"><center>CURICULUM VITAE</center></font><br>
+        <font style="color: white;" size="10" face="comic sans ms"><u><center>Nirma University</center></u></font><br>
+        <center><img src="https://media-exp1.licdn.com/dms/image/C511BAQH14s1Gf2rfAA/company-background_10000/0?e=2159024400&v=beta&t=gPXYyUviGCHx5Lo5kKOgy-JidIXabCnPWnmmEq3sut8" height="350" width="1000"/></center>
+
+        <hr>
+        <table align="center" id="table1">
+            <tr>
+                <td colspan="2">
+                    <h2 style="color:white;"><u><font face="comic sans ms" size="6">About Us</font></u>:</h2>
+                    <p style="color:rgb(255, 255, 255);"><font size="5">
+                        Nirma University is a private university in Ahmedabad in the state of Gujarat, India.<br> It functions under the aegis of the Nirma Education and Research Foundation.<br> Nirma University is a statutory university established under a Gujarat state act.<br><br></font>
+                    </p>
+                    <hr>
+                </td>
+            </tr>
+            <tr>
+                <td> 
+                    <img src = "https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Nirma_University_Logo.png/220px-Nirma_University_Logo.png"  height="200" width="200"/>
+                </td>
+                <td style="color:rgb(255, 255, 255);"><font size="5">
+                     This page facilitates the hostel registration of the<br> freshmen of Nirma University. <br></font>
+                    <br>
+                    <br>
+                  
+                </td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <hr id="Hostel">
+        <div style="padding-top: 5%; padding-bottom: 5%; " align="center" >
+            <div class="box" align="center" >
+                <br>
+                    <h3 style="font-size: 25px; font-family: "Lucida Console", Courier, monospace;"><font color="white">REGISTER HERE</font></h3>
+                    <hr>
+                    	<form action="in.php" method="POST">
+				<font color="white">
+				<fieldset style="font-size: 15px; font-family: "Lucida Console", Courier, monospace;">
+    				<legend>Student Info:</legend>
+				Student-name :&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+				<input type="text" name="sname">
+				<br><br>
+				Student-ID :&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+				<input type="text" name="sid">
+				<br><br>
+				Age :&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
+				<input type="number" name="age">
+				<br><br>
+				Gender :&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+				<input type="text" name="gender">
+				<br><br>
+				Department-name :&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+				<input type="text" name="dname">
+				<br><br>
+				Department-no :&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+				<input type="number" name="dno">
+				<br><br>
+				</fieldset>
+				Hostel-name :&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
+				<input type="text" name="hos">
+				<br><br>
+				Hostel-ID :&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
+				<input type="number" name="hosid">
+				<br><br>
+				<br>
+				<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+				<input type="submit" name="submit">&emsp;&emsp;
+                <button><a style="text-decoration:none" href='up.php'>Update</a></button>
+                <button><a style="text-decoration:none" href='del.php'>Delete</a></button>
+				</font>
+			</form>
+                </div> 
+            </div>
+        </div>
+        <br>
+        <br>
+        <hr id="Contact">
+        <h3 style="color: aliceblue;">&nbsp&nbsp&nbsp<u>Contact Details:</u></h3>
+        <blockquote style="color: aliceblue;">
+            Nirma University, S G Highway,<br>
+            Ahmedabad, 382481,<br>
+            Gujarat, India<br>
+            +91-79-71652000 +91-2717-241900 to 04 <br>
+            +91-2717-241911 to 15 <br>
+            
+        </blockquote>
+        <hr>  
+        <center>
+        <div> 
+        <h2 style="color: antiquewhite;"><u>Feedback Form</u></h2>
+            <form>
+                <input type="text" id="fname" name="fname" placeholder="Enter your name...">
+                <br>
+                <input type="text" id="lname" name="lname" placeholder="Enter your feedback...">
+                <br>
+                <input type="text" name="Lastname" placeholder="Enter your Email Address..." required><br><br><br>
+                <h3 style="color: antiquewhite;"><u>Gender:</u></h3><br><br>
+                <input type="radio" name="Gender" value="male" checked>MALE<br>
+                <input type="radio" name="Gender" value="female">FEMALE<br>
+                <input type="radio" name="Gender" value="OTHER">OTHER
+                <br>
+                <br>
+                <center><input type="submit" value="Next" style="width: 230px;background-color: antiquewhite; border-radius: 10px"></center>
+        <br>
+    <center><input type="reset" onclick="alert('Data on this page has been resetted!')" style="width: 230px;background-color: lightcyan; border-radius: 10px"></center>
+            </form>
+        </div>
+        </center>
+    </body>
+</html>
+	
+
