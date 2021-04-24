@@ -1,5 +1,5 @@
 # 18bce104_18bce083_dbms
-Hostel Management System
+Hostel Management System -
 The platform used for this project is Wamp Server.
 nirma.html is the main page for the user interface.
 On the main page under 'Hostel Registration' there are update and delete options.
